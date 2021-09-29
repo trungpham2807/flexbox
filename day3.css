@@ -1,0 +1,334 @@
+.box{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color:aliceblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.bt{
+    border: 1px solid black;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	height: 400px;
+    width: 800px;
+	overflow: hidden;
+	/* color: white; */
+}
+
+/* c1 */
+#c1 .container{
+    
+    display: flex;
+    justify-content: space-between;
+}
+#c1 .right{
+    display: flex;
+}
+/* c2 */
+#c2 .container{
+    display: flex;
+    justify-content: space-between;
+}
+#c2 .b2{
+    align-self: center;
+}
+#c2 .b3{
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+/* c3 */
+#c3 .b1{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    margin-top: 100px;
+    margin-left: 300px;
+    z-index: 1;
+    position: absolute;
+
+}
+#c3 .b2{
+    z-index: 20;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 350px;
+
+}
+/* c4 */
+#c4 .container{
+    position: relative;
+}
+#c4 .b2{
+    /* z-index: 20; */
+    background-color: gray;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+/* c5 */
+#c5 .container{
+    display: flex;
+    flex-direction: column;
+}
+#c5 .b1{
+    align-self: flex-end;
+}
+#c5 .b2{
+    align-self: center;
+}
+
+/* c6 */
+#c6 .container{
+    position: relative;
+}
+#c6 .b1{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    bottom: 0;
+    right: 0;
+    background-color: grey;
+}
+#c6 .b2{
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+
+}
+#c6 .b3{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+/* c7 */
+#c7 .container{
+    position: relative;
+}
+
+#c7 .b1{
+    position: absolute;
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+}
+#c7 .b2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+/* c8 */
+#c8 .container{
+    position: relative;
+}
+
+#c8 .b1{
+    position: absolute;
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+}
+#c8 .b2{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+/* c9 */
+#c9 .container{
+    position: relative;
+}
+
+#c9 .b1{
+    position: absolute;
+    background-color: grey;
+    height: 300px;
+    width: 200px;
+}
+#c9 .b2{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+#c9 .b3{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+/* c10 */
+#c10 .container{
+    position: relative;
+}
+
+#c10 .b1{
+    position: absolute;
+    background-color: grey;
+    width: 600px;
+    height: 200px;
+    top: 50px;
+}
+#c10 .b2{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+#c10 .b3{
+    position: absolute;
+    top: 100px;
+    right: 250px;
+}
+
+#challenge11 .box1 {
+	position: relative;
+	width: 150px;
+	height: 300px;
+}
+#challenge11 .box2 {
+	position: absolute;
+	height: 160px;
+	width: 130px;
+	bottom: 0;
+	right: 0;
+}
+#challenge11 .box3 {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+/* Challenge 12 */
+#challenge12 .box1 {
+	position: relative;
+	width: 150px;
+	height: 300px;
+}
+#challenge12 .box2 {
+	position: absolute;
+	height: 160px;
+	width: 130px;
+	bottom: 0;
+	right: -65px;
+}
+#challenge12 .box3 {
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+}
+
+/* Challenge 13 */
+#challenge13 .box1 {
+	position: relative;
+}
+#challenge13 .followers {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+section {
+	border: 1px solid black;
+	border-radius: 15px 15px 0 0;
+	margin-bottom: 30px;
+    width: 800px;
+	height: 400px;
+	overflow: hidden;
+	color: white;
+}
+section h1 {
+	font-size: 1em;
+	padding: 10px;
+	margin: 0;
+}
+
+/* Utilities */
+
+.box-square {
+	width: 100px;
+	height: 100px;
+}
+.box-square-xl {
+	width: 200px;
+	height: 200px;
+}
+.bg-black {
+	background-color: black;
+}
+.bg-dark {
+	background-color: #8a8585;
+}
+.bg-grey {
+	background-color: #bdc3c7;
+}
+
+/* c14 */
+#c14 .container{
+    position: relative;
+}
+#c14 .b1{
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#c14 .b2{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+/* c15 */
+#c15 .container{
+    display: flex;
+    flex-direction: row;
+
+}
+#c15 .col1{
+    position: relative;
+
+}
+#c15 .col2{
+    position: relative;
+    left: 100px;
+}
+#c15 .b1{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+}
+#c15 .b4{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    margin-top: 50px;
+}
+#c15 .b3{
+    position: relative;
+    top: 25px;
+}
+#c15 .b2{
+    position: relative;
+    left: 100px;
+}
+
+.bi{
+    border: 1px solid black;
+	border-radius: 15px;
+	margin-bottom: 30px;
+	height: 10000px;
+    width: 10000px;
+	overflow: auto;
+	/* color: white; */
+}
+#c16 img {
+	border-radius: 5px;
+	height: 100px;
+	width: 100%;
+}
+#c16 .col1{
+    margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
